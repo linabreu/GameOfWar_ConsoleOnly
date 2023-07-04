@@ -4,7 +4,7 @@
   obj.name = "";
 
 
-
+//don't know enough about how to capture fetch data as a variable, will come back to this later
   fetch('https://randomuser.me/api')
   .then(res => res.json())
   .then(data => {obj = data;})
