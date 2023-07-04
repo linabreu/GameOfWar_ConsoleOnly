@@ -49,8 +49,7 @@ class Deck
             // Shuffle using the Fisher–Yates shuffle method
             let x = Math.floor(Math.random() * (i + 1));
     
-            // Swap this.cards[i] with the element
-            // at random index
+            // Swap this.cards[i] with a random index to be a true shuffle
             [this.cards[i], this.cards[x]] = [this.cards[x], this.cards[i]];
         }
     }
